@@ -1,0 +1,39 @@
+{
+  "name": "@lobehub/lobe-chat-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "description": "LobeChat Plugins Index",
+  "homepage": "https://github.com/lobehub/lobe-chat-plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/lobe-chat-plugins.git"
+  },
+  "license": "MIT",
+  "author": "LobeHub <i@lobehub.com>",
+  "type": "module",
+  "scripts": {
+    "awesome": "bun scripts/build.ts && bun scripts/updateAwesome.ts",
+    "build": "bun scripts/build.ts",
+    "format": "bun scripts/format.ts",
+    "lint": "eslint \"scripts/**/*.ts\" --fix",
+    "lint:md": "remark . --quiet --output",
+    "prettier": "prettier -c --write \"**/*.{json,ts,md}\"",
+    "test": "bun scripts/test.ts"
+  },
+  "devDependencies": {
+    "@lobehub/chat-plugin-sdk": "latest",
+    "@lobehub/lint": "latest",
+    "@types/lodash-es": "^4",
+    "@types/node": "^20",
+    "consola": "^3",
+    "dayjs": "^1",
+    "dotenv": "^16",
+    "eslint": "^8",
+    "langchain": "latest",
+    "lodash-es": "^4",
+    "prettier": "^3",
+    "remark": "^14",
+    "remark-cli": "^11",
+    "typescript": "^5"
+  }
+}
