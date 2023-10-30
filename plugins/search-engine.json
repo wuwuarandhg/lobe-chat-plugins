@@ -3,7 +3,7 @@
   "createAt": "2023-08-15",
   "homepage": "https://github.com/lobehub/chat-plugin-search-engine",
   "identifier": "search-engine",
-  "manifest": "https://my-search.wuran.link/manifest.json",
+  "manifest": "https://search-engine.wuran.link/manifest.json",
   "meta": {
     "avatar": "🔍",
     "tags": ["web", "search"],
